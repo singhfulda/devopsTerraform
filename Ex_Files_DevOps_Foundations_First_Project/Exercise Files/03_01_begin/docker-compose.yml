@@ -14,3 +14,8 @@ services:
     command: 
       - --pattern
       - /app/spec/unit/*_spec.rb
+  selenium:
+    image: selenium/standalone-chrome-debug
+    ports:
+      - 4444:4444
+      - 5901:5900

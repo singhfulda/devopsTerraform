@@ -1,7 +1,7 @@
 require 'capybara'
 require 'capybara/dsl'
 
-describe "Example page render unit tests " do
-    it "should show the Explore Califonrnia logo" do
-    end
+describe "Example page render unit tests" do
+  it "Shows the Explore California logo" do
+  end
 end
